@@ -1,1 +1,15 @@
+N = int(input())
+
+1<=N<=100
+
+if N%2 ==1:
+    print('Weird')
+elif N in range(2,6) and N%2==0:
+    print('Not Weird')
+elif N in range(6,21) and N%2==0:
+    print('Weird')
+elif N>20 and N%2==0:
+    print('Not Weird')
+else:
+    print('N is greater than 100')
 
